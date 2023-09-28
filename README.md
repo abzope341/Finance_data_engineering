@@ -25,8 +25,8 @@ Operational Efficiency: By automating the process of ingesting and processing tr
 Data cleaning is a crucial step in any data analysis process. It involves preparing the data for analysis by removing or modifying data that is incorrect, incomplete, irrelevant, duplicated, or improperly formatted. Data cleaning use cases for our data schema.
 
 Data cleaning use cases:
-Transaction Table
-Outliers: Identify and handle outliers in the ‘amount’ field. This could be done using statistical methods (like the Z-score or IQR methods) or domain-specific knowledge.
+Transaction Table Outliers: 
+Identify and handle outliers in the ‘amount’ field. This could be done using statistical methods (like the Z-score or IQR methods) or domain-specific knowledge.
 Temporal Consistency: Check if the ‘date’ of transactions follows a logical order (e.g., a card cannot be used before its issue date).
 Date Consistency: Ensure that the ‘date’ field is in a consistent format across all records. If not, convert them to a standard format.
 Amount Validation: Check if the ‘amount’ field contains any non-numeric values or negative numbers, which might indicate data entry errors.
